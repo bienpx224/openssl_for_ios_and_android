@@ -21,7 +21,7 @@ set -u
 source ./build-android-common.sh
 
 if [ -z ${version+x} ]; then 
-  version="1.1.1i"
+  version="1.1.1d"  # 1.1.1i default
 fi
 
 init_log_color
